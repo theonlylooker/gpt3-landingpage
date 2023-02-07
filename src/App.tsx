@@ -1,13 +1,13 @@
 import React from "react";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="text-center text-lg text-blue-400">
-          hola me llamo eduardo
-        </h1>
-      </header>
+    <div
+      className="App pt-8 px-20 text-white"
+      style={{ background: "#040C18" }}
+    >
+      <Home />
     </div>
   );
 }
