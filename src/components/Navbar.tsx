@@ -19,7 +19,9 @@ const Navbar = () => {
         <div></div>
         <div className="col-start-3 flex gap-5 ">
           <button>Sign in</button>
-          <button className="bg-myorange py-3 px-10 rounded-md">Sign up</button>
+          <button className="bg-myorange py-3 px-10 rounded-md font-thin">
+            Sign up
+          </button>
         </div>
       </div>
     </div>

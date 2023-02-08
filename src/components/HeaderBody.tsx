@@ -7,6 +7,7 @@ import avatar4 from "../assets/Ellipse_34.svg";
 import avatar5 from "../assets/Ellipse_35.svg";
 import avatar6 from "../assets/Ellipse_36.svg";
 import avatar7 from "../assets/Ellipse_37.svg";
+import Paragraph from "./Paragraph";
 const HeaderBody = () => {
   return (
     <div className="grid grid-cols-2 place-items-center">
@@ -14,12 +15,14 @@ const HeaderBody = () => {
         <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-mygradientpurple to-mygradientorange ">
           Let's Build Something amazing with GPT-3 OpenAI
         </h1>
-        <p className="text-mytextvariation">
-          Yet bed any for travelling assistance indulgence unpleasing.
-          <br /> Not thoughts all exercise blessing. Indulgence way
-          <br /> everything joy alteration boisterous the attachment. Party
-          <br /> we years to order allow asked of.
-        </p>
+        <div className="text-xl">
+          <Paragraph>
+            Yet bed any for travelling assistance indulgence unpleasing.
+            <br /> Not thoughts all exercise blessing. Indulgence way
+            <br /> everything joy alteration boisterous the attachment. Party
+            <br /> we years to order allow asked of.
+          </Paragraph>
+        </div>
         <div>
           <input
             className="h-12 w-96 rounded-l-md pl-7 bg-myinputtextbgColor placeholder-myplaceholderColor"
