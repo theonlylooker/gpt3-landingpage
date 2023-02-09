@@ -1,8 +1,12 @@
 import React, { FC } from "react";
-import { ParagraphTypes } from "../types/types";
+import { TextTypes } from "../types/types";
 
-const Paragraph: FC<ParagraphTypes> = ({ children }) => {
-  return <p className="text-mytextvariation">{children}</p>;
+const Paragraph: FC<TextTypes> = ({ children, size, maxWidth, text }) => {
+  return (
+    <p className={`text-mytextvariation ${size} ${maxWidth}`}>
+      {text ? text : children}
+    </p>
+  );
 };
 
 export default Paragraph;

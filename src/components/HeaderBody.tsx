@@ -8,13 +8,14 @@ import avatar5 from "../assets/Ellipse_35.svg";
 import avatar6 from "../assets/Ellipse_36.svg";
 import avatar7 from "../assets/Ellipse_37.svg";
 import Paragraph from "./Paragraph";
+import Heading1TextGradient from "./Heading1TextGradient";
 const HeaderBody = () => {
   return (
     <div className="grid grid-cols-2 place-items-center">
       <div className="flex flex-col gap-8">
-        <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-mygradientpurple to-mygradientorange ">
+        <Heading1TextGradient size="text-6xl">
           Let's Build Something amazing with GPT-3 OpenAI
-        </h1>
+        </Heading1TextGradient>
         <div className="text-xl">
           <Paragraph>
             Yet bed any for travelling assistance indulgence unpleasing.

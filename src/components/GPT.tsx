@@ -3,8 +3,31 @@ import Heading2TextGradient from "./Heading2TextGradient";
 import Heading3withLineGradient from "./Heading3withLineGradient";
 import Paragraph from "./Paragraph";
 const GPT = () => {
+  let group = {
+    data: [
+      {
+        title: "Chatbots",
+        paragraph:
+          "We so opinion friends me message as delight. Whole front do of plate heard oh ought.",
+      },
+      {
+        title: "Knowledgebase",
+        paragraph:
+          "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b",
+      },
+      {
+        title: "Education",
+        paragraph:
+          "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b",
+      },
+    ],
+    titleSize: "text-2xl",
+    paragraphMaxWidth: "max-w-xs",
+    separation: "gap-7",
+    position: "vertical",
+  };
   return (
-    <div className="grid grid-cols-3 grid-rows-3 bg-mybluebackground px-16 py-14 gap-y-24 ">
+    <section className="grid grid-cols-3 grid-rows-3 bg-mybluebackground px-16 py-14 gap-y-24 ">
       <div className="text-2xl">
         <Heading3withLineGradient>What is GPT-3</Heading3withLineGradient>
       </div>
@@ -24,41 +47,16 @@ const GPT = () => {
       <small className="text-mydifferentorange self-center justify-self-center relative -right-20">
         Explore The Library
       </small>
-
-      <div>
-        <div className="mb-7 text-2xl">
-          <Heading3withLineGradient>Chatbots</Heading3withLineGradient>
+      {group.data.map((element, index) => (
+        <div key={index} className={`flex flex-col ${group.separation}`}>
+          <Heading3withLineGradient
+            text={element.title}
+            size={group.titleSize}
+          />
+          <Paragraph text={element.paragraph} size={group.paragraphMaxWidth} />
         </div>
-        <div className="max-w-xs">
-          <Paragraph>
-            We so opinion friends me message as delight. Whole front do of plate
-            heard oh ought.
-          </Paragraph>
-        </div>
-      </div>
-      <div>
-        <div className="mb-7 text-2xl">
-          <Heading3withLineGradient>Knowledgebase</Heading3withLineGradient>
-        </div>
-        <div className="max-w-xs">
-          <Paragraph>
-            At jointure ladyship an insisted so humanity he. Friendly bachelor
-            entrance to on by. As put impossible own apartments b
-          </Paragraph>
-        </div>
-      </div>
-      <div>
-        <div className="mb-7 text-2xl">
-          <Heading3withLineGradient>Education</Heading3withLineGradient>
-        </div>
-        <div className="max-w-xs">
-          <Paragraph>
-            At jointure ladyship an insisted so humanity he. Friendly bachelor
-            entrance to on by. As put impossible own apartments b
-          </Paragraph>
-        </div>
-      </div>
-    </div>
+      ))}
+    </section>
   );
 };
 

@@ -13,6 +13,7 @@ module.exports = {
         mygradientorange: "#F49867",
         mytextvariation: "#81AFDD",
         mybluebackground: "#082c54",
+        mylightblue: "#71E5FF",
       },
     },
   },
