@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/gpt3-landingpage/static/css/main.e1e9446e.css",
+    "main.js": "/gpt3-landingpage/static/js/main.707bb1cb.js",
+    "static/media/Feature_Image.svg": "/gpt3-landingpage/static/media/Feature_Image.561a35e861e366cd873649a16cb79375.svg",
+    "static/media/Rectangle_22.svg": "/gpt3-landingpage/static/media/Rectangle_22.b73c902bde4279540ed04290460da03e.svg",
+    "static/media/Ellipse_35.svg": "/gpt3-landingpage/static/media/Ellipse_35.68051dc956d0fe96c7af315d5001f5c3.svg",
+    "static/media/Ellipse_36.svg": "/gpt3-landingpage/static/media/Ellipse_36.b64021deb8761549ee8819ab2e0d9045.svg",
+    "static/media/Ellipse_34.svg": "/gpt3-landingpage/static/media/Ellipse_34.cdfe2c8e3a2aa34569d5b4ab588465ee.svg",
+    "static/media/Ellipse_31.svg": "/gpt3-landingpage/static/media/Ellipse_31.9f8f0912d964daf4e919694923ae2b1a.svg",
+    "static/media/Ellipse_33.svg": "/gpt3-landingpage/static/media/Ellipse_33.9c59ef6f1231e15e8009ff8d2eaa5b08.svg",
+    "static/media/Ellipse_32.svg": "/gpt3-landingpage/static/media/Ellipse_32.eb77f454a1579a5755263cabcb0138b8.svg",
+    "static/media/Header_Illustration.svg": "/gpt3-landingpage/static/media/Header_Illustration.d75432a84e5d06f85ec67dc1bbf1735c.svg",
+    "static/media/google.svg": "/gpt3-landingpage/static/media/google.247689bde90c98e1259fdf5ed13c37a0.svg",
+    "static/media/dropbox.svg": "/gpt3-landingpage/static/media/dropbox.0250409dd962348eb9b4c7813ad32761.svg",
+    "static/media/shopify.svg": "/gpt3-landingpage/static/media/shopify.e04cab1865bf1c9af49d060c30f0ed62.svg",
+    "static/media/slack.svg": "/gpt3-landingpage/static/media/slack.1e88d17123767bad641ee96bb624990a.svg",
+    "static/media/GPT-3.svg": "/gpt3-landingpage/static/media/GPT-3.cf6810c94fbac0cc653f939ff5723cf4.svg",
+    "index.html": "/gpt3-landingpage/index.html",
+    "static/media/Ellipse_37.svg": "/gpt3-landingpage/static/media/Ellipse_37.0d1d304847a88eae50d4eeff61cf3b86.svg",
+    "static/media/Bitmap.svg": "/gpt3-landingpage/static/media/Bitmap.e9ae117a0847d2c1039f9fdd435ab37e.svg",
+    "main.e1e9446e.css.map": "/gpt3-landingpage/static/css/main.e1e9446e.css.map",
+    "main.707bb1cb.js.map": "/gpt3-landingpage/static/js/main.707bb1cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1e9446e.css",
+    "static/js/main.707bb1cb.js"
+  ]
+}
